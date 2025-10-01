@@ -1,8 +1,4 @@
-# Hashing & Dictionary Implementation — A Practical, Code‑Heavy Tutorial
-
-> **Audience:** Data Structures students
->
-> **What you’ll learn:** How hashing powers dictionary/Map ADTs, how to analyze efficiency, how rehashing maintains performance, and how different collision‑resolution schemes compare in theory and in practice.
+# Hashing & Dictionary Implementation
 
 ---
 
@@ -396,17 +392,4 @@ for i in range(6):
 **A.** When lookups dominate and you can maintain low α; you want worst‑case O(1–2) probes.
 
 ---
-
-## 14) Reference Implementations (for students)
-- **Chaining map** (above): clear and debuggable.
-- **Open addressing (double hash)** (above): compact & cache‑friendly.
-- Encourage students to: instrument average probes, plot time vs α, and compare schemes.
-
----
-
-## 15) Summary
-- Hashing makes dictionaries fast by mapping keys to indices.
-- Collisions are inevitable; policy choice matters.
-- Rehashing keeps load factor in check and preserves O(1) **amortized** operations.
-- Pick the scheme that matches workload constraints: memory, deletion rate, and target α.
 
